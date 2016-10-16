@@ -1,0 +1,31 @@
+****For addon create follow this link
+http://aerialview.tv/mobile/2016/07/22/create-your-own-kodi-addon/ 
+if link unavailable then follow msword
+
+**** kodi support m3u extention playlist
+1.for m3u files making here i give youtube links reference to stream
+
+2. a player need to to play youtube video by which stream occur. here install vlc player by which kodi stream youtube video
+
+3. if your video url is 
+
+ https://www.youtube.com/watch?v=epZIH3LD-R8
+
+then playlist would be
+
+ plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=epZIH3LD-R8
+
+Notice here video id same. ok you done . example of a m3 u playlist for loopcoder
+
+#EXTM3U 
+#EXTINF:-1,Button Click Event Creating Tutorial In Android Studio
+plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=epZIH3LD-R8
+#EXTINF:-1,Sitemap Tutorial Bangla
+plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=uSsCjHpVM-U
+#EXTINF:-1,Sitemap Tutorial English
+plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=UP6eSgbR-WE
+
+Done. Now upload your addon and enjoy your loopcoder playlist
+
+
+
